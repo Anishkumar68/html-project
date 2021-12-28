@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic html</title>
+    <!-- icon of web site -->
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <!--1. heading write here -->
+        <h1 class="heading">this is heading </h1>
+        <hr>
+        <h2 class="heading">this is heading 2</h2>
+        <hr>
+        <h3 class="heading">this heading 3</h3>
+        <hr>
+        <h4 class="heading">this is heading 4</h4>
+        <hr>
+        <h5 class="heading">this is heading 5</h5>
+        <hr>
+        <h6 class="heading">this is heading 6</h6>
+    </header>
+
+    <!--2.artical tag start here  -->
+    <article>this is article </article>
+
+    <!--3. paragraph tag start here -->
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur sint totam perspiciatis
+        tempora
+        harum quas nostrum recusandae nesciunt, similique molestias est autem, quod, sunt aliquid consequuntur placeat
+        dolor? Tenetur!
+    </p>
+
+    <!-- 4.list start here -->
+    <!-- * odered list-->
+    <ol>
+        <li>step 1</li>
+        <li> step 2</li>
+        <li>step 3</li>
+        <li>step 4</li>
+        <li> step 5</li>
+        <li>step 6</li>
+        <li>step 7</li>
+    </ol>
+
+    <!--** unodered list -->
+    <ul>
+        <li>step 1</li>
+        <li>step 2</li>
+        <li>step 3</li>
+        <li>step 4</li>
+        <li>step 5</li>
+        <li>step 6</li>
+    </ul>
+
+    <!-- 5. hyper link write here -->
+    <a href="http://127.0.0.1:5500/basic.html">basic.html</a>
+
+    <!-- 6.image tag link with google and <p> tag for define start here -->
+    <p style="color: firebrick; text-decoration-line: underline;">
+        CLICK ON GOOGLE FOR SEARCH
+    </p>
+
+    <a href="http://www.google.com"><img
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google"
+            width="400px" height="200px"></a>
+    <br>
+
+    <!-- 7.video tag start here -->
+    <video width="320" height="240" controls autoplay>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+
+    </video>
+    <br>
+    <!-- 8.iframe tag start here -->
+    <iframe src="">
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+
+        </video>
+    </iframe>
+    <br>
+
+    <!-- 9.form tag get input from user -->
+    <!-- *1.input of user name-->
+    <div class="form">
+        <label for="username">Enter your username:</label>
+        <input class="username" type="username" name="username" value="username">
+        <br>
+        <!-- *2.input of full name -->
+        <label for="full name">Enter your full name:</label>
+        <input class="full name" type=" full name" name="Enter your full name" value="Enter your full name">
+        <br>
+        <!-- *3.input of user email -->
+        <label for="email">ENTER YOUR EMAIL:</label>
+        <input class="email" type="email" name="" value="email">
+        <br>
+        <!-- *4.input user DOB -->
+        <label for="date of birth">date of birth:</label>
+        <input class="date" type="date" name="value" value="file">
+        <br>
+        <!-- *5. input user address -->
+        <label for="address">Address</label>
+        <input class="address" type="address" name="address" value="address">
+        <br>
+        <!-- *6.file -->
+        <label for="file">upload your document:</label>
+        <input class="file" type="file" name="" value="file">
+        <br>
+        <!-- *7. checkbox -->
+        <input class="checkbox" type="checkbox" name="" value="">
+        <br>
+        <!--***8*** here start radiobutton and gender -->
+        <div>
+            <input type="radio" value="male" name="male">
+            <label for="male">male</label>
+            <input type="radio" value="female" name="female">
+            <label for="female">female</label>
+        </div>
+        <!-- 10.Button tag -->
+        <button class="button">SUBMIT</button>
+        <br>
+
+        <!-- 11.table -->
+        <hr>
+        <h3>table</h3>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>s.no</th>
+                    <th>name</th>
+                    <th>score</th>
+            </thead>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Anish </td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>pritem</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>ayush</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>rohit</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+            </tr>
+        </table>
+        <div class="hr">
+            <hr>
+            <hr>
+        </div>
+        <!-- 12.footer tag start here -->
+        <footer>
+            this is footer
+        </footer>
+
+        <!-- 13.css write here -->
+        <style>
+            .heading {
+                color: dodgerblue;
+                text-decoration: underline;
+                font: bolder;
+                font-size: 60px;
+                margin: 5px;
+                padding: 25px;
+            }
+
+            .button {
+                background: center darkblue;
+            }
+
+            .heading:hover {
+                color: rgb(199, 13, 13);
+            }
+            .hr{
+                background: rgba(24, 104, 170, 0.897);
+            }
+        </style>
+</body>
+
+</html>
