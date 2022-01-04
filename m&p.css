@@ -1,0 +1,23 @@
+.margin{
+    background: dodgerblue;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+}
+.margin:hover{
+    background: red;
+    margin: 60px 60px 60px 60px ;   /*top left right bottom */
+}
+
+.padding{
+    background: red;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+}
+.padding:hover{
+    background: dodgerblue;
+    padding: 20px 20px 20px 20px;
+}
